@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="IE=edge" >
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
-<title>抖音风1合集</title>
+<title>抖音风2合集</title>
 <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.9.23/skins/default/aliplayer-min.css" />
 <script type="text/javascript" charset="utf-8" src="https://g.alicdn.com/de/prismplayer/2.9.23/aliplayer-min.js"></script>
 </head>
@@ -33,11 +33,6 @@ se = setTimeout(function () {
   window.location.href='https://vip65.github.io/4.html';/*弹窗确定跳转在这里修改*/
  }
 }, 70000);
-     var vid = document.getElementsByTagName('video')[0];
-vid.addEventListener('ended',function(){ //视频播放完的事件
-//这里写跳转
-window.location = "https://voo8.github.io";
-},false);
 var player = new Aliplayer({
   "id": "player-con",
   "source": url,
@@ -116,7 +111,11 @@ var player = new Aliplayer({
     console.log("The player is created");
   }
 );
-
+     var vid = document.getElementsByTagName('video')[0];
+vid.addEventListener('ended',function(){ //视频播放完的事件
+//这里写跳转
+window.location = "https://voo8.github.io";
+},false);
 </script>
        <script>
 function jump(){window.location.href="https://vip65.github.io/4.html";}
